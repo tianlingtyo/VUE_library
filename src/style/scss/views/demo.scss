@@ -1,0 +1,95 @@
+.demo{
+  max-width: 768px;
+  margin: 0 auto;
+  .demo-box{
+    padding:0 20px;
+    background-color: #ffffff;
+    border: 1px solid #ebebeb;
+    .title{
+      padding: 0.125rem 0;
+      border-bottom: 1px solid #d8d8d8;
+      .top{
+        font-size: 18px;
+        color: #1f2f3d;
+        font-weight: 400;
+        line-height: 28px;
+      }
+      .down{
+        font-size: 14px;
+        color: #5e6d82;
+        line-height: 20px;
+        margin-top: 0.02rem;
+      }
+      .code-example{
+        padding:10px 30px;
+        margin-top: 0.02rem;
+        border: 1px solid #d8d8d8;
+        box-sizing: border-box;
+        font-size: 16px;
+        .color-3e76f6{
+         color: #3e76f6;
+       }
+        .color-e96900{
+          color: #e96900;
+          text-indent:42px;
+        }
+        .color-42b983{
+          color: #42b983;
+          text-indent: 0;
+        }
+        .color-fc1e70{
+          color: #fc1e70;
+          text-indent: 10px;
+        }
+        .code-box{
+          font-size: 0;
+
+        }
+        .code-label{
+          text-indent: 30px;
+        }
+        span{
+          display: inline-block;
+          vertical-align: top;
+          font-size: 16px;
+        }
+        .js-keyword{
+          font-size: 16px;
+        }
+        .last-Symbol{
+          text-indent: 42px;
+        }
+        .js-option{
+          text-indent: 62px;
+          font-size: 16px;
+        }
+        .js-function{
+          font-size: 16px;
+          text-indent: 40px;
+        }
+      }
+    }
+    .box{
+      background-color: #fff;
+      padding:0.125rem 0;
+      font-size: 16px;
+      border-bottom: 1px solid #d8d8d8;
+    }
+    table{
+      border-collapse: collapse;
+      width: 100%;
+      background-color: #fff;
+      font-size: 14px;
+      line-height: 50px;
+      td,th{
+        font-size: 14px;
+        color: #333;
+        border-bottom: 1px solid #d8d8d8;
+        text-align: center;
+      }
+    }
+  }
+  .demo-box+.demo-box{
+    margin-top: 0.12rem;
+  }
+}

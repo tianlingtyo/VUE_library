@@ -1,0 +1,23 @@
+.stars-item{
+  .stars-title{
+    color: #76c5d0;
+  }
+  .stars-left{
+    float: left;
+  }
+  i{
+    color: #76c5d0;
+  }
+  i+i{
+    margin-left: 0.01rem;
+  }
+  .half{
+    margin-left: 100px;
+  }
+  .all{
+      margin-left: 52px;
+    .pointer{
+      cursor: pointer;
+    }
+  }
+}

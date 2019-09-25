@@ -1,0 +1,46 @@
+.switch-item{
+  position: relative;
+  #switch{
+    display: none;
+  }
+  .switch-box{
+    display: block;
+    width: 60px;
+    height: 24px;
+    border: 1px solid #ccc;
+    border-radius: 24px;
+    background-color: #ccc;
+    position: relative;
+    .switch-title{
+      display: block;
+      height: 22px;
+      line-height: 22px;
+      color: #fff;
+      font-size: 12px;
+      position: absolute;
+      left: 25px;
+    }
+  }
+  .switch-box:before{
+    content: "";
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    background-color: #fff;
+    position: absolute;
+    left: 1px;
+    top: 1px;
+    cursor: pointer;
+    transition: left .2s ease-in-out,width .2s ease-in-out;
+  }
+  #switch:checked + .switch-box {
+    background-color:#2d8cf0;
+    border: 1px solid #2d8cf0;
+    .switch-title{
+      left:8px;
+    }
+  }
+  #switch:checked+.switch-box:before{
+    left:37px;
+  }
+}

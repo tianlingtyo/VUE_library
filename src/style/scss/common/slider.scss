@@ -1,0 +1,97 @@
+.slider-item{
+  font-size: 16px;
+  height: 24px;
+  .slider-left{
+    float: left;
+    height: 24px;
+    line-height: 24px;
+    text-align: left;
+  }
+  .slider-right{
+    float: right;
+    height: 24px;
+    line-height: 24px;
+    text-align: right;
+  }
+  .slider-middle{
+    position: relative;
+    margin-left:40px;
+    margin-right: 40px;
+    height: 24px;
+    padding: 9px 0;
+    box-sizing: border-box;
+    .slider-wrap{
+      height: 6px;
+      width: 100%;
+      background-color: #f3f3f3;
+      border-radius: 30px;
+      position: relative;
+      z-index: 1;
+    }
+    .slider-bar{
+      position: absolute;
+      top:0;
+      left: 0;
+      z-index: 3;
+      height: 6px;
+      border-radius: 30px;
+    }
+    .slider-btn-box{
+      position: absolute;
+      top: 50%;
+      z-index: 5;
+      width: 20px;
+      height: 20px;
+      margin-top: -10px;
+      text-align: center;
+      transform: translateX(-50%);
+      .slider-btn{
+       position: absolute;
+        top: 3px;
+        left: 4px;
+        width: 14px;
+        height: 14px;
+        border-radius: 50%;
+        background-color: #fff;
+        transition: all .2s linear;
+        cursor: pointer;
+      }
+      .slider-btn:hover,.slider-btn:focus{
+        -webkit-transform:scale(1.4);
+         -moz-transform:scale(1.5);
+         -o-transform:scale(1.5);
+        transform:scale(1.4);
+      }
+      .slider-btn:hover~.slider-prompt,.slider-btn:focus~.slider-prompt{
+        display: block;
+      }
+      .slider-prompt{
+        display: none;
+        position: absolute;
+        top: -48px;
+        left:50%;
+        max-width: 250px;
+        min-height: 34px;
+        padding: 8px 12px;
+        color: #fff;
+        text-align: left;
+        text-decoration: none;
+        background-color: rgba(70,76,91,.9);
+        border-radius: 4px;
+        box-shadow: 0 1px 6px rgba(0,0,0,.2);
+      }
+      .slider-prompt:before{
+        content: "";
+        position: absolute;
+        bottom: -8px;
+        left:50%;
+        width: 0;
+        height: 0;
+        border-top: 8px solid rgba(70,76,91,.9);
+        border-right: 8px solid transparent;
+        border-left: 8px solid transparent;
+        margin-left: -8px;
+      }
+    }
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "id": "1433992",
+  "name": "VUE组件库",
+  "font_family": "iconfont",
+  "css_prefix_text": "",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "551841",
+      "name": "省略号",
+      "font_class": "more",
+      "unicode": "e637",
+      "unicode_decimal": 58935
+    },
+    {
+      "icon_id": "3670790",
+      "name": "上拉",
+      "font_class": "prev",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    },
+    {
+      "icon_id": "3739315",
+      "name": "星星",
+      "font_class": "star-on",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "3740217",
+      "name": "星星",
+      "font_class": "star-half",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "3740254",
+      "name": "星星",
+      "font_class": "star-off",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "3820573",
+      "name": "下",
+      "font_class": "right",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "3830263",
+      "name": "下",
+      "font_class": "left",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "6227850",
+      "name": "圆点",
+      "font_class": "spot",
+      "unicode": "e61a",
+      "unicode_decimal": 58906
+    },
+    {
+      "icon_id": "11053030",
+      "name": "上拉",
+      "font_class": "next",
+      "unicode": "e61b",
+      "unicode_decimal": 58907
+    }
+  ]
+}
